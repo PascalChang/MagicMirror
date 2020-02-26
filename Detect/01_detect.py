@@ -14,9 +14,9 @@ modelType = "yolo-tiny"  #yolo or yolo-tiny
 confThreshold = 0.7  #Confidence threshold
 nmsThreshold = 0.6   #Non-maximum suppression threshold
 
-classesFile = "project/cfg.project/obj.names";
-modelConfiguration = "project/cfg.project/yolov3-tiny.cfg";
-modelWeights = "project/cfg.project/weights/yolov3-tiny_500000.weights";
+classesFile = "project/obj.names";
+modelConfiguration = "project/yolov3-tiny.cfg";
+modelWeights = "project/weights/yolov3-tiny_500000.weights";
 
 #page="http://192.168.39.38:8080/RESTfulTest/rest/user/Rpi0002/"
 page="http://192.168.39.38:8080/RESTfulTest/rest/user/Rpi0001/"
