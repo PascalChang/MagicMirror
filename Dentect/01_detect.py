@@ -3,6 +3,11 @@ import argparse
 import cv2
 import numpy as np
 import requests
+'''
+開啟螢幕
+'''
+
+
 
 #--------------------------------------------------------
 modelType = "yolo-tiny"  #yolo or yolo-tiny
@@ -15,7 +20,7 @@ modelWeights = "project/cfg.project/weights/yolov3-tiny_500000.weights";
 
 #page="http://192.168.39.38:8080/RESTfulTest/rest/user/Rpi0002/"
 page="http://192.168.39.38:8080/RESTfulTest/rest/user/Rpi0001/"
-#首頁"http://192.168.39.169:8080/RESTfulTest/WebSocket.html?id=Raspi0001/"
+#首頁"http://192.168.39.38:8080/RESTfulTest/WebSocket.html?id=Rpi0001/"
 
 displayScreen = True  #Do you want to show the image on LCD?
 outputToFile = True   #output the predicted result to image or video file
