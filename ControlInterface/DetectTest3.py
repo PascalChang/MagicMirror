@@ -42,7 +42,8 @@ def action(channel):
             
             cv2.imwrite('picture/who.jpeg', frame)
             print("Take a Picture")
-            vs.stream.realse()
+			vs.stop()
+            vs.stream.release()
             #cv2.destroyAllWindows()
             
             break
