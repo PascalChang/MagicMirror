@@ -1,0 +1,5 @@
+classes= 5
+train  = project/cfg.project/train.txt
+valid  = project/cfg.project/test.txt
+names = project/cfg.project/obj.names
+backup = project/cfg.project/weights
